@@ -1,7 +1,7 @@
 Name = ICED Function Layer;
 Version = 0.1;
 Author = "HaaTa (Jacob Alexander) 2015";
-KLL = 0.3c;
+KLL = 0.3d;
 
 # Modified Date
 Date = 2015-08-21;
@@ -12,6 +12,15 @@ U"4" : U"F4";
 U"3" : U"F3";
 U"2" : U"F2";
 U"1" : U"F1";
+
+U"Function5" : mouseOut(1, 0, 0);
+U"Function4" : mouseOut(2, 0, 0);
+U"Backspace" : mouseOut(3, 0, 0);
+
+U"E": mouseOut(0, 0, -1);
+U"D": mouseOut(0, 0, 1);
+U"S": mouseOut(0, -1, 0);
+U"F": mouseOut(0, 1, 0);
 
 U"LALT" : U"Lock1";
 
