@@ -1,0 +1,105 @@
+Name = Acui Ergodox DOK;
+Version = 0.2;
+Author = "HaaTa (Jacob Alexander) 2015";
+KLL = 0.3c;
+
+# Modified Date
+Date = 2015-09-20;
+
+# Make default layout more like the original ErgoDox default layout
+# https://keyboard-configurator.massdrop.com/ext/ergodox/
+#
+# The defaultMap.kll in BaseMap cannot have any duplicate keys (or they cannot be fully remapped later)
+# But, the DefaultMap can start to duplicate keys without any issues
+
+# Left
+U"ESC" : U"ESC";
+U"5" : U"5";
+U"4" : U"4";
+U"3" : U"3";
+U"2" : U"2";
+U"1" : U"1";
+U"EQUALS" : U"BACKTICK";
+
+U"FUNCTION1" : U"LBRACE";
+U"T" : U"T";
+U"R" : U"R";
+U"E" : U"E";
+U"W" : U"W";
+U"Q" : U"Q";
+U"BACKSLASH" : U"TAB";
+
+U"G" : U"G";
+U"F" : U"F";
+U"D" : U"D";
+U"S" : U"S";
+U"A" : U"A";
+U"TAB" : U"CAPSLOCK";
+
+U"LALT" : U"Lock1";
+U"LCTRL" : U"PRINTSCREEN";
+
+U"FUNCTION2" : U"RBRACE";
+U"B" : U"B";
+U"V" : U"V";
+U"C" : U"C";
+U"X" : U"X";
+U"Z" : U"Z";
+U"LSHIFT" : U"LSHIFT";
+
+U"HOME" : U"Function2";
+U"END" : U"Function1";
+U"DELETE" : U"DELETE";
+U"BACKSPACE" : U"SPACE";
+
+U"FUNCTION5" : U"LCTRL";
+U"FUNCTION4" : U"LALT";
+U"FUNCTION3" : U"MENU";
+U"BACKTICK" : U"Lock3";
+U"LGUI" : U"Lock4";
+
+# Right
+U"FUNCTION6" : U"F10";
+U"6" : U"4";
+U"7" : U"5";
+U"8" : U"6";
+U"9" : U"7";
+U"0" : U"8";
+U"MINUS" : U"BACKSPACE";
+
+U"LBRACE" : U"Tab";
+U"Y" : U"3";
+U"U" : U"H";
+U"I" : U"G";
+U"O" : U"Y";
+U"P" : U"9";
+U"RBRACE" : U"LAlt";
+
+U"H" : U"2";
+U"J" : U"V";
+U"K" : U"A";
+U"L" : U"S";
+U"SEMICOLON" : U"0";
+U"QUOTE" : U"Enter";
+
+U"RALT" : U"Lock2";
+U"RCTRL" : U"SCROLLLOCK";
+
+U"FUNCTION7" : U"P0";
+U"N" : U"1";
+U"M" : U"F1";
+U"COMMA" : U"F";
+U"PERIOD" : None;
+U"SLASH" : U"LShift";
+U"RSHIFT" : U"PageDown";
+
+U"PAGEUP" : U"Function2";
+U"PAGEDOWN" : U"Function1";
+U"ENTER" : U"ENTER";
+U"SPACE" : U"SPACE";
+
+U"LEFT" : U"LCTRL";
+U"DOWN" : U"F3";
+U"UP" : U"F4";
+U"RIGHT" : U"F9";
+U"RGUI" : U"F12";

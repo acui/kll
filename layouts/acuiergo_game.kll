@@ -1,0 +1,37 @@
+Name = Acuiergodox Game;
+Version = 0.1;
+Author = "HaaTa (Jacob Alexander) 2015";
+KLL = 0.3c;
+
+# Modified Date
+Date = 2015-09-12;
+
+# Top Row
+U"6": U"Lock4";
+U"7": U"Lock5";
+U"8": U"Lock6";
+U"9": U"Lock7";
+U"0": layerLock(8) + LCDLayerDisplay();
+
+# Top-Middle Row
+U"Y": layerLock(9) + LCDLayerDisplay();
+U"U": layerLock(10) + LCDLayerDisplay();
+U"I": layerLock(11) + LCDLayerDisplay();
+U"O": layerLock(12) + LCDLayerDisplay();
+U"P": layerLock(13) + LCDLayerDisplay();
+
+# Middle Row
+U"H": layerLock(14) + LCDLayerDisplay();
+U"J": layerLock(15) + LCDLayerDisplay();
+U"K": layerLock(16) + LCDLayerDisplay();
+U"L": layerLock(17) + LCDLayerDisplay();
+U"Semicolon": layerLock(18) + LCDLayerDisplay();
+
+# Bottom-Middle Row
+U"N": layerLock(19) + LCDLayerDisplay();
+U"M": layerLock(20) + LCDLayerDisplay();
+U"Comma": layerLock(21) + LCDLayerDisplay();
+U"Period": layerLock(22) + LCDLayerDisplay();
+U"Slash": layerLock(23) + LCDLayerDisplay();
+
+
