@@ -1,0 +1,46 @@
+Name = rpnCalcFuncMap;
+Version = 0.3;
+Author = "Cui Yuting 2016";
+KLL = 0.3c;
+
+# Modified Date
+Date = 2016-05-09;
+
+# Maps each Numberpad key to the Calc function.
+U"P/" :: CalcDivide();
+U"P*" :: CalcMultiply();
+U"P+" :: CalcAdd();
+U"P-" :: CalcSubtract();
+U"PEnter" :: CalcEnter();
+U"P1" :: CalcChar( '"1"' );
+U"P2" :: CalcChar( '"2"' );
+U"P3" :: CalcChar( '"3"' );
+U"P4" :: CalcChar( '"4"' );
+U"P5" :: CalcChar( '"5"' );
+U"P6" :: CalcChar( '"6"' );
+U"P7" :: CalcChar( '"7"' );
+U"P8" :: CalcChar( '"8"' );
+U"P9" :: CalcChar( '"9"' );
+U"P0" :: CalcChar( '"0"' );
+U"P00" :: CalcChar( '"00"' );
+U"P000" :: CalcChar( '"000"' );
+U"P." :: CalcChar( '"."' );
+U"PA" :: CalcChar( '"A"' );
+U"PB" :: CalcChar( '"B"' );
+U"PC" :: CalcChar( '"C"' );
+U"PD" :: CalcChar( '"D"' );
+U"PE" :: CalcChar( '"E"' );
+U"PF" :: CalcChar( '"F"' );
+U"PXOR" :: CalcBitXor();
+U"P^" :: CalcBitNot();
+U"P&" :: CalcBitAnd();
+U"P|" :: CalcBitOr();
+U"P+/-" :: CalcToggleSign();
+U"PClear" :: CalcClear();
+U"PClearEntry" :: CalcClearEntry();
+U"PBinary" :: CalcBinary();
+U"POctal" :: CalcOctal();
+U"PDecimal" :: CalcDecimal();
+U"PHex" :: CalcHex();
+
+
