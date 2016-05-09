@@ -7,10 +7,10 @@ KLL = 0.3c;
 Date = 2016-05-09;
 
 # Maps each Numberpad key to the Calc function.
-U"P/" :: CalcDivide();
-U"P*" :: CalcMultiply();
-U"P+" :: CalcAdd();
-U"P-" :: CalcSubtract();
+U"P/" :: CalcBinaryOperator( '"/"' );
+U"P*" :: CalcBinaryOperator( '"*"' );
+U"P+" :: CalcBinaryOperator( '"+"' );
+U"P-" :: CalcBinaryOperator( '"-"' );
 U"PEnter" :: CalcEnter();
 U"P1" :: CalcChar( '"1"' );
 U"P2" :: CalcChar( '"2"' );
@@ -31,16 +31,17 @@ U"PC" :: CalcChar( '"C"' );
 U"PD" :: CalcChar( '"D"' );
 U"PE" :: CalcChar( '"E"' );
 U"PF" :: CalcChar( '"F"' );
-U"PXOR" :: CalcBitXor();
-U"P^" :: CalcBitNot();
-U"P&" :: CalcBitAnd();
-U"P|" :: CalcBitOr();
-U"P+/-" :: CalcToggleSign();
+U"PXOR" :: CalcBinaryOperator( '"^"' );
+U"P^" :: CalcUnaryOperator( '"~"' );
+U"P&" :: CalcBinaryOperator( '"&"' );
+U"P|" :: CalcBinaryOperator( '"|"' );
+U"P+/-" :: CalcUnaryOperator( '"-"' );
 U"PClear" :: CalcClear();
 U"PClearEntry" :: CalcClearEntry();
-U"PBinary" :: CalcBinary();
-U"POctal" :: CalcOctal();
-U"PDecimal" :: CalcDecimal();
-U"PHex" :: CalcHex();
-
-
+U"PBinary" :: CalcMode( '"b"' );
+U"POctal" :: CalcMode( '"o"' );
+U"PDecimal" :: CalcMode( 0x00 );
+U"PHex" :: CalcMode( '"x"' );
+U"PMemoryStore" :: CalcDuplicate();
+U"PMemoryRecall" :: CalcPop();
+U"PBackspace" :: CalcChar ( 0x08 );
