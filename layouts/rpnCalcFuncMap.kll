@@ -44,4 +44,5 @@ U"PDecimal" :: CalcMode( 0x00 );
 U"PHex" :: CalcMode( '"x"' );
 U"PMemoryStore" :: CalcDuplicate();
 U"PMemoryRecall" :: CalcPop();
+U"PMemoryClear" :: CalcRotate();
 U"PBackspace" :: CalcChar ( 0x08 );
