@@ -4,45 +4,59 @@ Author = "Cui Yuting 2016";
 KLL = 0.3c;
 
 # Modified Date
-Date = 2016-05-09;
+Date = 2016-05-12;
 
 # Maps each Numberpad key to the Calc function.
-U"P/" :: CalcBinaryOperator( '"/"' );
-U"P*" :: CalcBinaryOperator( '"*"' );
-U"P+" :: CalcBinaryOperator( '"+"' );
-U"P-" :: CalcBinaryOperator( '"-"' );
+U"P/" :: CalcBinaryOperator( 0x2f );
+U"P*" :: CalcBinaryOperator( 0x2a );
+U"P+" :: CalcBinaryOperator( 0x2b );
+U"P-" :: CalcBinaryOperator( 0x2d );
 U"PEnter" :: CalcEnter();
-U"P1" :: CalcChar( '"1"' );
-U"P2" :: CalcChar( '"2"' );
-U"P3" :: CalcChar( '"3"' );
-U"P4" :: CalcChar( '"4"' );
-U"P5" :: CalcChar( '"5"' );
-U"P6" :: CalcChar( '"6"' );
-U"P7" :: CalcChar( '"7"' );
-U"P8" :: CalcChar( '"8"' );
-U"P9" :: CalcChar( '"9"' );
-U"P0" :: CalcChar( '"0"' );
-U"P00" :: CalcChar( '"00"' );
-U"P000" :: CalcChar( '"000"' );
-U"P." :: CalcChar( '"."' );
-U"PA" :: CalcChar( '"A"' );
-U"PB" :: CalcChar( '"B"' );
-U"PC" :: CalcChar( '"C"' );
-U"PD" :: CalcChar( '"D"' );
-U"PE" :: CalcChar( '"E"' );
-U"PF" :: CalcChar( '"F"' );
-U"PXOR" :: CalcBinaryOperator( '"^"' );
-U"P^" :: CalcUnaryOperator( '"~"' );
-U"P&" :: CalcBinaryOperator( '"&"' );
-U"P|" :: CalcBinaryOperator( '"|"' );
-U"P+/-" :: CalcUnaryOperator( '"-"' );
+U"P1" :: CalcChar( 0x31 );
+U"P2" :: CalcChar( 0x32 );
+U"P3" :: CalcChar( 0x33 );
+U"P4" :: CalcChar( 0x34 );
+U"P5" :: CalcChar( 0x35 );
+U"P6" :: CalcChar( 0x36 );
+U"P7" :: CalcChar( 0x37 );
+U"P8" :: CalcChar( 0x38 );
+U"P9" :: CalcChar( 0x39 );
+U"P0" :: CalcChar( 0x30 );
+
+# h is for hecto
+U"P00" :: CalcChar( 0x68 );
+
+# k is for kilo
+U"P000" :: CalcChar( 0x6b );
+
+U"P." :: CalcChar( 0x2e );
+U"PA" :: CalcChar( 0x41 );
+U"PB" :: CalcChar( 0x42 );
+U"PC" :: CalcChar( 0x43 );
+U"PD" :: CalcChar( 0x44 );
+U"PE" :: CalcChar( 0x45 );
+U"PF" :: CalcChar( 0x46 );
+U"PXOR" :: CalcBinaryOperator( 0x5e );
+U"P^" :: CalcUnaryOperator( 0x7e );
+U"P&" :: CalcBinaryOperator( 0x26 );
+U"P|" :: CalcBinaryOperator( 0x7c );
+U"P+/-" :: CalcChar( 0x5f );
 U"PClear" :: CalcClear();
 U"PClearEntry" :: CalcClearEntry();
-U"PBinary" :: CalcMode( '"b"' );
-U"POctal" :: CalcMode( '"o"' );
+
+# b is for binary
+U"PBinary" :: CalcMode( 0x62 );
+
+# o is for octal
+U"POctal" :: CalcMode( 0x6f );
+
+# 0x00 is for decimal
 U"PDecimal" :: CalcMode( 0x00 );
-U"PHex" :: CalcMode( '"x"' );
-U"PMemoryStore" :: CalcDuplicate();
-U"PMemoryRecall" :: CalcPop();
-U"PMemoryClear" :: CalcRotate();
+
+# x is for hexadecimal
+U"PHex" :: CalcMode( 0x78 );
+
+U"F1" :: CalcDuplicate();
+U"Tab" :: CalcSwap();
+U"F2" :: CalcRotate();
 U"PBackspace" :: CalcChar ( 0x08 );
