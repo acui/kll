@@ -12,6 +12,8 @@ Date = 2015-09-20;
 # The defaultMap.kll in BaseMap cannot have any duplicate keys (or they cannot be fully remapped later)
 # But, the DefaultMap can start to duplicate keys without any issues
 
+stateWordSize = 16;
+
 # Left
 U"ESC" : U"ESC";
 U"5" : U"5";
