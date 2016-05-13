@@ -1,0 +1,55 @@
+Name = ICED Numpad Layer;
+Version = 0.1;
+Author = "HaaTa (Jacob Alexander) 2015";
+KLL = 0.3c;
+
+# Modified Date
+Date = 2015-08-21;
+
+# Right
+U"FUNCTION6" : CalcInitialize();
+U"6" : U"PDecimal";
+U"7" : U"P0";
+U"8" : U"P/";
+U"9" : U"P*";
+U"0" : U"P-";
+U"MINUS" : U"PBackspace";
+
+U"LBRACE" : U"P&";
+U"Y" : U"PHex";
+U"U" : U"P7";
+U"I" : U"P8";
+U"O" : U"P9";
+U"P" : U"P+";
+U"RBRACE" : U"PXOR";
+
+U"H" : U"PBinary";
+U"J" : U"P4";
+U"K" : U"P5";
+U"L" : U"P6";
+U"SEMICOLON" : U"P+/-";
+U"QUOTE" : U"P^";
+
+U"RALT" : U"PB";
+U"RCTRL" : U"PA";
+
+U"FUNCTION7" : U"P|";
+U"N" : U"POctal";
+U"M" : U"P1";
+U"COMMA" : U"P2";
+U"PERIOD" : U"P3";
+U"SLASH" : U"PClearEntry";
+U"RSHIFT" : U"PClear";
+
+U"PAGEUP" : U"PC";
+U"PAGEDOWN" : U"PD";
+U"ENTER" : U"PE";
+U"SPACE" : U"PF";
+
+U"LEFT" : U"PEnter";
+U"DOWN" : U"Tab";
+U"UP" : U"F2";
+U"RIGHT" : U"P000";
+U"RGUI" : U"P00";
+
+

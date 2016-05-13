@@ -1,0 +1,103 @@
+Name = Acui Ergodox Calculator;
+Version = 0.2;
+Author = "HaaTa (Jacob Alexander) 2015";
+KLL = 0.3c;
+
+# Modified Date
+Date = 2015-09-20;
+
+# Make default layout more like the original ErgoDox default layout
+# https://keyboard-configurator.massdrop.com/ext/ergodox/
+#
+# The defaultMap.kll in BaseMap cannot have any duplicate keys (or they cannot be fully remapped later)
+# But, the DefaultMap can start to duplicate keys without any issues
+
+# Left
+U"ESC" : U"ESC";
+U"5" : U"5";
+U"4" : U"4";
+U"3" : U"3";
+U"2" : U"2";
+U"1" : U"1";
+U"EQUALS" : U"BACKTICK";
+
+U"FUNCTION1" : U"LBRACE";
+U"T" : U"T";
+U"R" : U"R";
+U"E" : U"E";
+U"W" : U"W";
+U"Q" : U"Q";
+U"BACKSLASH" : U"TAB";
+
+U"G" : U"G";
+U"F" : U"F";
+U"D" : U"D";
+U"S" : U"S";
+U"A" : U"A";
+U"TAB" : U"CAPSLOCK";
+
+U"LALT" : U"Lock1";
+U"LCTRL" : U"PRINTSCREEN";
+
+U"FUNCTION2" : U"RBRACE";
+U"B" : U"B";
+U"V" : U"V";
+U"C" : U"C";
+U"X" : U"X";
+U"Z" : U"Z";
+U"LSHIFT" : U"LSHIFT";
+
+U"HOME" : U"Function2";
+U"END" : U"Function1";
+U"DELETE" : U"DELETE";
+U"BACKSPACE" : U"SPACE";
+
+U"FUNCTION5" : U"LCTRL";
+U"FUNCTION4" : U"LALT";
+U"FUNCTION3" : U"MENU";
+
+# Right
+U"FUNCTION6" : CalcInitialize();
+U"6" : CalcMode( 0 );
+U"7" : CalcChar( 0x30 );
+U"8" : CalcBinaryOperator( 0x2f );
+U"9" : CalcBinaryOperator( 0x2a );
+U"0" : CalcBinaryOperator( 0x2d );
+U"MINUS" : CalcChar( 0x08 );
+
+U"LBRACE" : CalcBinaryOperator( 0x26 );
+U"Y" : CalcMode( 0x78 );
+U"U" : CalcChar( 0x37 );
+U"I" : CalcChar( 0x38 );
+U"O" : CalcChar( 0x39 );
+U"P" : CalcBinaryOperator( 0x2b );
+U"RBRACE" : CalcBinaryOperator( 0x5e );
+
+U"H" : CalcMode( 0x62 );
+U"J" : CalcChar( 0x34 );
+U"K" : CalcChar( 0x35 );
+U"L" : CalcChar( 0x36 );
+U"SEMICOLON" : CalcChar ( 0x5f );
+U"QUOTE" : CalcUnaryOperator( 0x7e );
+
+U"RALT" : CalcChar( 0x42 );
+U"RCTRL" : CalcChar( 0x41 );
+
+U"FUNCTION7" : CalcBinaryOperator( 0x7c );
+U"N" : CalcMode( 0x6f );
+U"M" : CalcChar( 0x31 );
+U"COMMA" : CalcChar( 0x32 );
+U"PERIOD" : CalcChar( 0x33 );
+U"SLASH" : CalcClearEntry();
+U"RSHIFT" : CalcClear();
+
+U"PAGEUP" : CalcChar( 0x43 );
+U"PAGEDOWN" : CalcChar( 0x44 );
+U"ENTER" : CalcChar( 0x45 );
+U"SPACE" : CalcChar( 0x46 );
+
+U"LEFT" : CalcEnter();
+U"DOWN" : CalcSwap();
+U"UP" : CalcRotate();
+U"RIGHT" : CalcChar( 0x68 );
+U"RGUI" : CalcChar( 0x6b );
