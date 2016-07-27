@@ -104,4 +104,4 @@ U"LEFT" : U"RCTRL";
 U"DOWN" : U"RALT";
 U"UP" : U"LEFT";
 U"RIGHT" : U"RIGHT";
-U"RGUI" : U"END";
+U"Function8" : U"END";

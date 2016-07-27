@@ -100,4 +100,4 @@ U"LEFT" : CalcEnter();
 U"DOWN" : CalcSwap();
 U"UP" : CalcRotate();
 U"RIGHT" : CalcChar( 0x68 );
-U"RGUI" : CalcChar( 0x6b );
+U"Function8" : CalcChar( 0x6b );
